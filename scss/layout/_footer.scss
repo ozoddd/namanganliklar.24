@@ -1,0 +1,68 @@
+.footer {
+  background-color: $colorfooter;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: $colorwhite;
+}
+.footer__container {
+}
+.footer__contents {
+}
+.footer__site__logo {
+  font-weight: 700;
+  font-size: $fs-24;
+  margin-bottom: 1.5rem;
+}
+.footer__contents_content {
+  display: flex;
+  border-bottom: 1px solid $colorfooter-line;
+  margin-bottom: 2rem;
+
+  :nth-child(2) {
+    margin-right: 10rem;
+  }
+}
+.footer_content_descraption {
+  width: 100%;
+  max-width: 229px;
+  margin-right: 20.3rem;
+  font-size: $fs-12;
+  line-height: 1.9rem;
+  letter-spacing: 0%;
+  margin-bottom: 7.1rem;
+}
+.footer_content-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer_content-links-item {
+}
+.footer_content-link {
+  font-weight: 500;
+  font-size: $fs-16;
+  color: $colorwhite;
+
+  &:hover {
+    scale: 1.1;
+  }
+}
+.footer__socals {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__socals-title {
+  width: 161px;
+}
+.footer__socals-list {
+  display: flex;
+  gap: 2.5rem;
+
+  :hover {
+    scale: 1.1;
+  }
+}
+.footer__socals-list-item {
+}
+.footer__socals-link {
+}

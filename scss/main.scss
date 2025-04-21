@@ -1,0 +1,38 @@
+@import "./vendors/_normalize";
+@import "./abstract/varables";
+@import "./abstract/functions";
+@import "./abstract/mixins";
+@import "./pages/home";
+@import "./pages/interesting";
+@import "./pages/articles";
+@import "./pages/contact";
+@import "./base/reset";
+@import "./base/photography";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./components/buttons";
+
+/* rubik-regular - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik-v28-cyrillic_latin-regular.woff2") format("woff2");
+}
+/* rubik-500 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/rubik-v28-cyrillic_latin-500.woff2") format("woff2");
+}
+/* rubik-700 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik-v28-cyrillic_latin-700.woff2") format("woff2");
+}

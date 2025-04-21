@@ -1,0 +1,149 @@
+.header {
+}
+.sitenav {
+  background-color: $colornav;
+  margin-bottom: 3rem;
+}
+.sitenav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.sinenav__container-left {
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
+}
+.site__logo {
+}
+.site__logo-link {
+}
+.site__logo-img {
+}
+.currencies {
+  display: flex;
+}
+.usd {
+  margin-right: 2.5rem;
+  gap: 0.5rem;
+  font-size: $rem-1-6;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  span {
+    font-weight: 500;
+    color: #4271dd;
+  }
+}
+.rub {
+  gap: 0.5rem;
+  font-size: $rem-1-6;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  span {
+    font-weight: 500;
+    color: #4271dd;
+  }
+}
+.sinenav__container-right {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.sinenav__container-right-search {
+}
+.sinenav__container-right-search__input {
+  display: inline-block;
+  width: 275px;
+  border: none;
+  padding-left: 4.3rem;
+  padding-bottom: 1.3rem;
+  padding-top: 1.5rem;
+  border-radius: $b-r-60;
+  font-size: $fs-14;
+  background-image: url("../../images/icons/search.svg");
+  background-repeat: no-repeat;
+  background-position: left 15px center;
+
+  &:focus {
+    outline: none;
+  }
+}
+.sinenav__container-right__lang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $colorsky-blue;
+  border-radius: 39px;
+  gap: 0.8rem;
+  padding: 0.3rem;
+
+  font-size: $fs-13;
+  line-height: 1.2rem;
+  letter-spacing: 0%;
+}
+.sinenav__container-right__lang-uz {
+  color: $colorblack;
+}
+.lang_active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: $colorblack;
+}
+.sinenav__container-right__lang-ru {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: $colorgray;
+}
+
+.sinenav__container-right__btn {
+  background-color: $colorblue;
+  color: $colorwhite;
+  font-weight: 500;
+  font-size: $fs-16;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.sitelink_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-bottom: 4rem;
+}
+.sitelink__list {
+  display: flex;
+  gap: 3.4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.sitelink__list_item {
+}
+.sitelink__list-link {
+  font-weight: 500;
+  font-size: $fs-18;
+  color: $colorgray;
+
+  &:hover {
+    scale: 1.1;
+    color: $colorblue;
+  }
+}
+
+.sitelink__list-link-active {
+  color: $colorblue;
+  font-weight: 500;
+  font-size: $fs-18;
+}
